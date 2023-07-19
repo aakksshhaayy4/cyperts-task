@@ -1,6 +1,7 @@
 package com.codewithakshay.cyperts.filemgmt.excel.entity;
 
 import javax.persistence.Entity;
+import javax.persistence.Id;
 import javax.persistence.Table;
 
 import lombok.Data;
@@ -10,6 +11,7 @@ import lombok.Data;
 @Data
 public class Employees {
 
+	@Id
 	private long id;
 	private String name;
 	private String city;

@@ -22,12 +22,12 @@ public class ExcelHelper {
 	public static String sheetName = "Employees";
 
 	public static boolean isItExcelFile(MultipartFile file) {
-		if (file.getContentType() != supportedFileType)
+		if (!supportedFileType.equals(file.getContentType()))
 			return false;
 		return true;
 	}
 
-	public static List<Employees> exportToTable(InputStream stream) {
+	public static List<Employees> excelToEmployeeConverter(InputStream stream) {
 		try {
 			Workbook book = new XSSFWorkbook(stream);
 			Sheet sheet = book.getSheet(sheetName);
@@ -58,15 +58,18 @@ public class ExcelHelper {
 						break;
 
 					case 1:
-						employees.setTitle(currentCell.getStringCellValue());
+						employees.setName(currentCell.getStringCellValue());
 						break;
 
 					case 2:
-						employees.setDescription(currentCell.getStringCellValue());
+						employees.setDept(currentCell.getStringCellValue());
 						break;
 
 					case 3:
-						employees.setPublished(currentCell.getBooleanCellValue());
+						employees.setCity(currentCell.getStringCellValue());
+						break;
+					case 4:
+						employees.setAge((int) currentCell.getNumericCellValue());
 						break;
 
 					default:
