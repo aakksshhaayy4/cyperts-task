@@ -1,4 +1,4 @@
-package com.codewithakshay.cyperts.filemgmt.service.impl;
+package com.codewithakshay.cyperts.service.impl;
 
 import java.io.IOException;
 import java.util.stream.Stream;
@@ -8,9 +8,9 @@ import org.springframework.stereotype.Service;
 import org.springframework.util.StringUtils;
 import org.springframework.web.multipart.MultipartFile;
 
-import com.codewithakshay.cyperts.filemgmt.entity.Files;
-import com.codewithakshay.cyperts.filemgmt.repository.FilesRepository;
-import com.codewithakshay.cyperts.filemgmt.service.FilesService;
+import com.codewithakshay.cyperts.entity.Files;
+import com.codewithakshay.cyperts.repository.FilesRepository;
+import com.codewithakshay.cyperts.service.FilesService;
 
 @Service
 public class FilesServiceImpl implements FilesService {

@@ -1,10 +1,10 @@
-package com.codewithakshay.cyperts.filemgmt.excel.service;
+package com.codewithakshay.cyperts.service;
 
 import java.util.List;
 
 import org.springframework.web.multipart.MultipartFile;
 
-import com.codewithakshay.cyperts.filemgmt.excel.entity.Employees;
+import com.codewithakshay.cyperts.entity.Employees;
 
 public interface EmployeeService {
 

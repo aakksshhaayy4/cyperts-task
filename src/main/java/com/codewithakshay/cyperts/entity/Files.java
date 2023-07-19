@@ -1,4 +1,4 @@
-package com.codewithakshay.cyperts.filemgmt.entity;
+package com.codewithakshay.cyperts.entity;
 
 import java.sql.Timestamp;
 

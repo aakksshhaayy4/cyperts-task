@@ -1,9 +1,10 @@
-package com.codewithakshay.cyperts.filemgmt.excel.repository;
+package com.codewithakshay.cyperts.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
-import com.codewithakshay.cyperts.filemgmt.excel.entity.Employees;
+import com.codewithakshay.cyperts.entity.Employees;
+
 
 @Repository
 public interface EmployeeRepository extends JpaRepository<Employees, Long> {

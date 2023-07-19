@@ -1,4 +1,4 @@
-package com.codewithakshay.cyperts.filemgmt.excel.controller;
+package com.codewithakshay.cyperts.controller;
 
 import java.util.List;
 
@@ -12,10 +12,10 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.multipart.MultipartFile;
 
-import com.codewithakshay.cyperts.filemgmt.excel.entity.Employees;
-import com.codewithakshay.cyperts.filemgmt.excel.service.EmployeeService;
-import com.codewithakshay.cyperts.filemgmt.excel.util.ExcelHelper;
-import com.codewithakshay.cyperts.filemgmt.response.FileResponseMessage;
+import com.codewithakshay.cyperts.entity.Employees;
+import com.codewithakshay.cyperts.response.FileResponseMessage;
+import com.codewithakshay.cyperts.service.EmployeeService;
+import com.codewithakshay.cyperts.util.ExcelHelper;
 
 @RestController
 @RequestMapping("/excel")

@@ -1,11 +1,11 @@
-package com.codewithakshay.cyperts.filemgmt.service;
+package com.codewithakshay.cyperts.service;
 
 import java.io.IOException;
 import java.util.stream.Stream;
 
 import org.springframework.web.multipart.MultipartFile;
 
-import com.codewithakshay.cyperts.filemgmt.entity.Files;
+import com.codewithakshay.cyperts.entity.Files;
 
 public interface FilesService {
 

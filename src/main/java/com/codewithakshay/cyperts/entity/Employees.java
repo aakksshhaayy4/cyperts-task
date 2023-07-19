@@ -1,4 +1,4 @@
-package com.codewithakshay.cyperts.filemgmt.excel.entity;
+package com.codewithakshay.cyperts.entity;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;

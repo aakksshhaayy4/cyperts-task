@@ -1,9 +1,9 @@
-package com.codewithakshay.cyperts.filemgmt.repository;
+package com.codewithakshay.cyperts.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
-import com.codewithakshay.cyperts.filemgmt.entity.Files;
+import com.codewithakshay.cyperts.entity.Files;
 
 @Repository
 public interface FilesRepository extends JpaRepository<Files, String> {

@@ -1,4 +1,4 @@
-package com.codewithakshay.cyperts.filemgmt.excel.service.impl;
+package com.codewithakshay.cyperts.service.impl;
 
 import java.util.List;
 
@@ -6,10 +6,10 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.web.multipart.MultipartFile;
 
-import com.codewithakshay.cyperts.filemgmt.excel.entity.Employees;
-import com.codewithakshay.cyperts.filemgmt.excel.repository.EmployeeRepository;
-import com.codewithakshay.cyperts.filemgmt.excel.service.EmployeeService;
-import com.codewithakshay.cyperts.filemgmt.excel.util.ExcelHelper;
+import com.codewithakshay.cyperts.entity.Employees;
+import com.codewithakshay.cyperts.repository.EmployeeRepository;
+import com.codewithakshay.cyperts.service.EmployeeService;
+import com.codewithakshay.cyperts.util.ExcelHelper;
 
 @Service
 public class EmployeeServiceImpl implements EmployeeService {

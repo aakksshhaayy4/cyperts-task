@@ -1,4 +1,4 @@
-package com.codewithakshay.cyperts.filemgmt.response;
+package com.codewithakshay.cyperts.response;
 
 import java.sql.Timestamp;
 

@@ -1,6 +1,4 @@
-package com.codewithakshay.cyperts.filemgmt.response;
-
-import java.sql.Timestamp;
+package com.codewithakshay.cyperts.response;
 
 import lombok.Data;
 

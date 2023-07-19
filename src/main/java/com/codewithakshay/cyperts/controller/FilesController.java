@@ -1,4 +1,4 @@
-package com.codewithakshay.cyperts.filemgmt.controller;
+package com.codewithakshay.cyperts.controller;
 
 import java.util.List;
 import java.util.stream.Collectors;
@@ -16,10 +16,10 @@ import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.multipart.MultipartFile;
 import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
 
-import com.codewithakshay.cyperts.filemgmt.entity.Files;
-import com.codewithakshay.cyperts.filemgmt.response.FileResponse;
-import com.codewithakshay.cyperts.filemgmt.response.FileResponseMessage;
-import com.codewithakshay.cyperts.filemgmt.service.FilesService;
+import com.codewithakshay.cyperts.entity.Files;
+import com.codewithakshay.cyperts.response.FileResponse;
+import com.codewithakshay.cyperts.response.FileResponseMessage;
+import com.codewithakshay.cyperts.service.FilesService;
 
 @RestController
 @RequestMapping("/files")
