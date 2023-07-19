@@ -28,14 +28,14 @@ public class FilesServiceImpl implements FilesService {
 
 	@Override
 	public List<Files> getAllFiles() {
-		// TODO Auto-generated method stub
-		return null;
+
+		return filesRepository.findAll();
 	}
 
 	@Override
 	public Files getFileById(String id) {
-		// TODO Auto-generated method stub
-		return null;
+
+		return filesRepository.findById(id).get();
 	}
 
 }
